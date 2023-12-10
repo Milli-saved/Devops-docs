@@ -1,7 +1,7 @@
 # Docker Demo with Nginx
 
 In this demonstration, we will use the Nginx Docker image to showcase various Docker commands, including network, exec, volume, and port mapping.
-Before you run the following demo make sure you install docker on the machine [[Installing Docker]]
+Before you run the following demo make sure you install docker on the machine [Installing Docker](https://git.gebeya.training/devops-docs/devops-course-technical-docs/-/blob/main/Docker%20&%20docker-compose/Installing%20Docker.md?ref_type=heads)
 
 ## Step 1: Pull Nginx Image
 

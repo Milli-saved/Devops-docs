@@ -1,6 +1,6 @@
 # Adding SSH Public Key to the Remote Server
 
-Before you add the SSH public key to the remote server, ensure you have generated an SSH key. If not, please refer to the guide on [SSH Key Generation](https://chat.openai.com/c/link-to-SSH-Key-Generation).
+Before you add the SSH public key to the remote server, ensure you have generated an SSH key. If not, please refer to the guide on [SSH Key Generation](https://git.gebeya.training/devops-docs/devops-course-technical-docs/-/blob/main/SSH/SSH-Key%20Generation.md?ref_type=heads).
 
 Follow these steps to add the SSH public key to the remote server:
 

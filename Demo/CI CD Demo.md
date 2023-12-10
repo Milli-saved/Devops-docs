@@ -92,4 +92,4 @@ git push
 
 ## Configuring the Remote Server for SSH
 
-For the CD stage to function correctly, make sure you perform the SSH key addition. Follow the steps in [[Adding SSH Public Key to the Remote Server]].
+For the CD stage to function correctly, make sure you perform the SSH key addition. Follow the steps in [Adding SSH Public Key to the Remote Server](https://git.gebeya.training/devops-docs/devops-course-technical-docs/-/blob/main/SSH/Adding%20SSH%20public%20key%20to%20the%20remote%20server.md?ref_type=heads).

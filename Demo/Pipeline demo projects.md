@@ -1,6 +1,6 @@
 # CI/CD Pipeline Demo Projects
 
-Explore the following demo projects designed to help you set up CI/CD pipelines effortlessly, utilizing the [[CI CD Demo]] template:
+Explore the following demo projects designed to help you set up CI/CD pipelines effortlessly, utilizing the [CI CD Demo](https://git.gebeya.training/devops-docs/devops-course-technical-docs/-/blob/main/Demo/CI%20CD%20Demo.md?ref_type=heads) template:
 
 1. **Quick Example of Testing in Node.js**
     - Repository: [https://github.com/Lissy93/quick-example-of-testing-in-nodejs.git](https://github.com/Lissy93/quick-example-of-testing-in-nodejs.git)

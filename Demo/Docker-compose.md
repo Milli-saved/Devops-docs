@@ -1,7 +1,7 @@
 # Docker Compose Demo with Node.js and MongoDB
 
 In this demonstration, we will use `docker-compose` to orchestrate a multi-container environment with a Node.js application and a MongoDB database.
-Before you run the following demo make sure you install docker-compose on the machine [[Installing Docker]]
+Before you run the following demo make sure you install docker-compose on the machine [Installing Docker](https://git.gebeya.training/devops-docs/devops-course-technical-docs/-/blob/main/Docker%20&%20docker-compose/Installing%20Docker.md?ref_type=heads)
 
 ## Step 1: Create Docker Compose YAML File
 

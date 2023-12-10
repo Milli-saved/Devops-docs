@@ -11,8 +11,12 @@
             "id": "50b6106643d31158",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Demo/Pipeline demo projects.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Demo/Pipeline demo projects.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Demo/Pipeline demo projects.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Demo/Pipeline demo projects.md"
+              }
             }
           }
         ]
@@ -138,23 +146,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f2b6301b57239b85",
+  "active": "50b6106643d31158",
   "lastOpenFiles": [
-    "devops-course-technical-docs",
-    "README.md",
-    "Docker & docker-compose.md",
     "Demo/CI CD Demo.md",
     "Demo/Pipeline demo projects.md",
     "Demo/Docker-compose.md",
     "Demo/Docker basic commands.md",
+    "Docker & docker-compose/Installing Docker.md",
     "Docker & docker-compose/Basic docker-compose commands.md",
     "Docker & docker-compose/Basic Docker commands.md",
     "Gitlab-CI-CD/Gitlab CI configuration.md",
-    "Docker & docker-compose/Installing Docker.md",
-    "SSH/SSH-Key Generation.md",
-    "SSH/SSH to server.md",
-    "Docker & docker-compose",
     "SSH/Adding SSH public key to the remote server.md",
+    "SSH/SSH to server.md",
+    "SSH/SSH-Key Generation.md",
+    "README.md",
+    "Docker & docker-compose.md",
+    "devops-course-technical-docs",
+    "Docker & docker-compose",
     "Demo/CI Demo.md",
     "Demo",
     "Gitlab-CI-CD",

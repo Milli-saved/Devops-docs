@@ -1,7 +1,7 @@
 # Basic Docker Commands
 
 Docker commands are used to interact with containers and manage Docker images. Here are some fundamental Docker commands to get you started:
-Before you run the following commands make sure you install docker on the machine [[Installing Docker]]
+Before you run the following commands make sure you install docker on the machine [Installing Docker](https://git.gebeya.training/devops-docs/devops-course-technical-docs/-/blob/main/Docker%20&%20docker-compose/Installing%20Docker.md?ref_type=heads)
 
 ## 1. Image Commands
 

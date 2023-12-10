@@ -1,5 +1,6 @@
 ## Docker Compose Commands
-Before you run the following commands make sure you install docker-compose on the machine [[Installing Docker]]
+Before you run the following commands make sure you install docker-compose on the machine 
+[Installing Docker](https://git.gebeya.training/devops-docs/devops-course-technical-docs/-/blob/main/Docker%20&%20docker-compose/Installing%20Docker.md?ref_type=heads)
 
 ### Run Docker Compose
 ```bash
