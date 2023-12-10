@@ -1,0 +1,163 @@
+{
+  "main": {
+    "id": "8185ae6517789a73",
+    "type": "split",
+    "children": [
+      {
+        "id": "85b0123efad7e098",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "50b6106643d31158",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "4e27610dcdefe85c",
+    "type": "split",
+    "children": [
+      {
+        "id": "74ea448d5891c89a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f2b6301b57239b85",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d381c1acc929318e",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "d81f746fdd819d1d",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "64c9625f359ecb7a",
+    "type": "split",
+    "children": [
+      {
+        "id": "2befd1a68a421e0e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "032616aa6f842762",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "da1a3a5e2bfd5773",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "3b7a9bce921b0b02",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "0ff1a71bdef368a1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f2b6301b57239b85",
+  "lastOpenFiles": [
+    "devops-course-technical-docs",
+    "README.md",
+    "Docker & docker-compose.md",
+    "Demo/CI CD Demo.md",
+    "Demo/Pipeline demo projects.md",
+    "Demo/Docker-compose.md",
+    "Demo/Docker basic commands.md",
+    "Docker & docker-compose/Basic docker-compose commands.md",
+    "Docker & docker-compose/Basic Docker commands.md",
+    "Gitlab-CI-CD/Gitlab CI configuration.md",
+    "Docker & docker-compose/Installing Docker.md",
+    "SSH/SSH-Key Generation.md",
+    "SSH/SSH to server.md",
+    "Docker & docker-compose",
+    "SSH/Adding SSH public key to the remote server.md",
+    "Demo/CI Demo.md",
+    "Demo",
+    "Gitlab-CI-CD",
+    "SSH"
+  ]
+}
