@@ -5,7 +5,7 @@ In this demo we will see the usecases that nginx acts as
 3. Loadbalancer
 Lets start by implementing as web server
 # Nginx as Web server
-![[Pasted image 20231214123241.png]]
+![Pasted image ](20231214123241.png)
 
 For this demo we select one website project from GitHub project https://github.com/learning-zone/website-templates/tree/master and configure it on docker, to do so please execute the following command on the project directory 
 
@@ -21,7 +21,7 @@ curl http://ec2-52-209-48-167.eu-west-1.compute.amazonaws.com:8080
 ```
 
 # Nginx as proxy server
-![[Pasted image 20231214123805.png]]
+![Pasted image ](20231214123805.png)
 For this demo we extend what we started earlier by adding one more project and configure nginx to do proxy pass
 ```bash
 #create network for the apps to resolve eachother
@@ -68,7 +68,7 @@ curl http://ec2-52-209-48-167.eu-west-1.compute.amazonaws.com:8080/app3
 ```
 
 # Nginx as Load balancer
-![[Pasted image 20231215210855.png]]
+![Pasted image ](20231215210855.png)
 
 For this to work, you need to run the same application in multiple replicas with different name in the same network. For the demonstration purpose we will use different app. Follow the following steps.
 
