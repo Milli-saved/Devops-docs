@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "50b6106643d31158",
+            "id": "44624492b4441120",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Demo/Pipeline demo projects.md",
+                "file": "kubectl.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c276a99634770b7c",
+            "id": "47ea05c770baf2ec",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Demo/Nginx-Demo.md",
+                "file": "Demo/Kubernetes/k8s installation and configuration.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Demo/Nginx-Demo.md",
+                "file": "Demo/Kubernetes/k8s installation and configuration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Demo/Nginx-Demo.md",
+                "file": "Demo/Kubernetes/k8s installation and configuration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Demo/Nginx-Demo.md"
+                "file": "Demo/Kubernetes/k8s installation and configuration.md"
               }
             }
           }
@@ -159,16 +159,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c276a99634770b7c",
+  "active": "47ea05c770baf2ec",
   "lastOpenFiles": [
-    "Demo/Pasted image 20231215210855.png",
+    "Demo/Kubernetes/Play with K8s.md",
+    "kubectl.md",
+    "Demo/Kubernetes/k8s installation and configuration.md",
+    "Demo/Gitlab/CI CD Demo.md",
     "Demo/Nginx-Demo.md",
-    "Demo/Pasted image 20231214123805.png",
-    "Demo/Pasted image 20231214123241.png",
-    "Demo/Pipeline demo projects.md",
-    "Demo/CI CD Demo.md",
-    "Demo/Docker-compose.md",
-    "Demo/Docker basic commands.md",
+    "Demo/Gitlab/Pipeline demo projects.md",
+    "Demo/Gitlab",
+    "Demo/Docker/Pasted image 20231214123241.png",
+    "Demo/Kubernetes",
+    "Demo/Docker",
+    "Demo/Docker/Pasted image 20231215210855.png",
+    "Demo/Docker/Pasted image 20231214123805.png",
+    "Demo/Docker/Docker-compose.md",
+    "Demo/Docker/Docker basic commands.md",
     "Docker & docker-compose/Installing Docker.md",
     "Docker & docker-compose/Basic docker-compose commands.md",
     "Docker & docker-compose/Basic Docker commands.md",
