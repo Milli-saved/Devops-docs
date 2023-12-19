@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Demo/Kubernetes/k8s installation and configuration.md",
+                "file": "Demo/Kubernetes/Play with K8s.md",
                 "mode": "source",
                 "source": false
               }
@@ -82,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "64c9625f359ecb7a",
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Demo/Kubernetes/k8s installation and configuration.md",
+                "file": "Demo/Kubernetes/Play with K8s.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Demo/Kubernetes/k8s installation and configuration.md",
+                "file": "Demo/Kubernetes/Play with K8s.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Demo/Kubernetes/k8s installation and configuration.md"
+                "file": "Demo/Kubernetes/Play with K8s.md"
               }
             }
           }
@@ -161,11 +161,11 @@
   },
   "active": "47ea05c770baf2ec",
   "lastOpenFiles": [
+    "Demo/Nginx-Demo.md",
     "Demo/Kubernetes/Play with K8s.md",
     "kubectl.md",
     "Demo/Kubernetes/k8s installation and configuration.md",
     "Demo/Gitlab/CI CD Demo.md",
-    "Demo/Nginx-Demo.md",
     "Demo/Gitlab/Pipeline demo projects.md",
     "Demo/Gitlab",
     "Demo/Docker/Pasted image 20231214123241.png",
