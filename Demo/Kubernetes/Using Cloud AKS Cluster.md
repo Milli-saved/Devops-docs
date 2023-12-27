@@ -5,6 +5,7 @@ To install azure cli please go to their [documentation]([How to install the Azur
 ## Stage 2: Login using the cli
 Open your preferred command line interface with az cli installed and run the following command.
 ```sh
+az account set --subscription eac735ae-e92b-4b40-902f-b12750b02699
 az login
 ```
 The next stage is to add the Kubernetes cluster to your local kubectl configs by running the command
@@ -89,6 +90,9 @@ spec:
         image: nginx:1.14.2
         ports:
         - containerPort: 80
+        env: 
+        - name: SAMPLE_ENV_VAR 
+          value: "This is my sample application env var"
         volumeMounts:
         - name: nginx-persistent-storage
           mountPath: /usr/share/nginx/html
