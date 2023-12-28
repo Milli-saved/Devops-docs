@@ -27,7 +27,7 @@ docker build -t kaleabg/my-devops-cms:1.0.1 .
 docker push kaleabg/my-devops-cms:1.0.1
 ```
 ## Create Mongodb Deployment manifest with PV and PVC
-Lest first create pv with the file name `monogdb-pv.yaml`
+Lest first create PV with the file name `monogdb-pv.yaml`
 ```yaml
 apiVersion: v1
 kind: PersistentVolume
