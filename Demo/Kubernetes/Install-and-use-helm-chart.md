@@ -94,6 +94,7 @@ kind: Ingress
 metadata:
   name: my-nginx-app-ingress
 spec:
+  ingressClassName: nginx
   rules:
   - host: my-domain-name
     http:
