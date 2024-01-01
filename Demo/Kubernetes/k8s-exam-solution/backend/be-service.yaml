@@ -1,0 +1,13 @@
+# postgresql-service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: backend-svc
+spec:
+  selector:
+    app: backend-api-dep
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  clusterIP: None

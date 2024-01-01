@@ -1,0 +1,13 @@
+# postgresql-service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: frontend-svc
+spec:
+  selector:
+    app: frontend-dep
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+  clusterIP: None

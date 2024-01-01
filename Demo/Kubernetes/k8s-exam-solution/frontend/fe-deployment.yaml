@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: frontend-dep
+spec:
+  selector:
+    matchLabels:
+      app: frontend-dep
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: frontend-dep
+    spec:
+      containers:
+      - name: frontend-dep
+        image: kaleabg/saf-ja-k8s-test-frontend:1.0.0
+        ports:
+        - containerPort: 80
+        env:
+        - name: REACT_APP_BACKEND_BASE_URI
+          value: "http://be.kal.gebeyalearning.com/api/items"
