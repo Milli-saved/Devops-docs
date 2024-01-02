@@ -37,3 +37,30 @@ Adding the cluster to the argo
 argocd cluster add [context-name] --name [friendly name]
 ```
 Answer all the questions correctly and go back to your argocd UI and navigate to settings >> clusters section and see if the newly added cluster have the status of `successful`
+
+## Configure Ingress for ArgoCD
+To access your ArgoCD UI from remote environment you should configure ingress for it. To do that please create the following ingress file called `argocd-ingress.yaml` and add the following content.
+```yaml
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: argocd-ingress
+spec:
+  ingressClassName: nginx
+  rules:
+  - host: argocd.kal.gebeyalearning.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: argocd-server
+            port:
+              number: 443
+```
+Next apply the above ingress on your argocd namespace
+```bash
+kubectl apply -f argocd-ingress.yaml -n kal-argocd
+```
+Now you can access ArgoCD from remote environment without having access to the Kubernetes cluster.
