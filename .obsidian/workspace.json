@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "44624492b4441120",
+            "id": "c735a79598742321",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "kubectl.md",
+                "file": "Demo/Kubernetes/Using Cloud AKS Cluster.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "47ea05c770baf2ec",
+            "id": "b9ef9171fd90f3ea",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Demo/Kubernetes/Play with K8s.md",
+                "file": "Demo/Complete-CI-CD-pipeline-Demo.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Statefulset",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Demo/Kubernetes/Play with K8s.md",
+                "file": "Demo/Complete-CI-CD-pipeline-Demo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Demo/Kubernetes/Play with K8s.md",
+                "file": "Demo/Complete-CI-CD-pipeline-Demo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Demo/Kubernetes/Play with K8s.md"
+                "file": "Demo/Complete-CI-CD-pipeline-Demo.md"
               }
             }
           }
@@ -159,18 +159,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "47ea05c770baf2ec",
+  "active": "b9ef9171fd90f3ea",
   "lastOpenFiles": [
-    "Demo/Nginx-Demo.md",
-    "Demo/Kubernetes/Play with K8s.md",
+    "Demo/Monitoring/Prometheus.md",
+    "Demo/Complete-CI-CD-pipeline-Demo.md",
+    "test.yaml",
+    "Demo/Monitoring/Grafana.md",
+    "Demo/ArgoCD/Install-ArgoCD.md",
+    "Demo/Monitoring",
+    "Demo/Kubernetes/Kubernetes-Exam.md",
+    "Demo/ArgoCD",
+    "Demo/Kubernetes/k8s-exam-solution/postgresql/ps-statefulset.yaml",
+    "Demo/Kubernetes/k8s-exam-solution/postgresql/ps-service.yaml",
+    "Demo/Kubernetes/k8s-exam-solution/postgresql/ps-pass-secret.yaml",
+    "Demo/Kubernetes/k8s-exam-solution/frontend/fe-service.yaml",
+    "Demo/Kubernetes/k8s-exam-solution/frontend/fe-ingress.yaml",
+    "Demo/Kubernetes/k8s-exam-solution/frontend/fe-deployment.yaml",
+    "Demo/Kubernetes/k8s-exam-solution/backend/be-service.yaml",
+    "Demo/Kubernetes/Using Cloud AKS Cluster.md",
+    "Demo/Kubernetes/Using Secrets.md",
     "kubectl.md",
     "Demo/Kubernetes/k8s installation and configuration.md",
+    "Demo/Kubernetes/K8s -Multi pod Class activity.md",
+    "Demo/Kubernetes/k8s - Multi Pod class activity solution.md",
+    "Demo/Kubernetes/Install-and-use-helm-chart.md",
+    "Pasted image 20231230080757.png",
+    "Pasted image 20231229170231.png",
+    "Demo/Kubernetes/Using ConfigMap.md",
+    "Demo/Kubernetes/Play with K8s.md",
+    "Demo/Nginx-Demo.md",
     "Demo/Gitlab/CI CD Demo.md",
     "Demo/Gitlab/Pipeline demo projects.md",
-    "Demo/Gitlab",
     "Demo/Docker/Pasted image 20231214123241.png",
-    "Demo/Kubernetes",
-    "Demo/Docker",
     "Demo/Docker/Pasted image 20231215210855.png",
     "Demo/Docker/Pasted image 20231214123805.png",
     "Demo/Docker/Docker-compose.md",
@@ -181,14 +201,6 @@
     "Gitlab-CI-CD/Gitlab CI configuration.md",
     "SSH/Adding SSH public key to the remote server.md",
     "SSH/SSH to server.md",
-    "SSH/SSH-Key Generation.md",
-    "README.md",
-    "Docker & docker-compose.md",
-    "devops-course-technical-docs",
-    "Docker & docker-compose",
-    "Demo/CI Demo.md",
-    "Demo",
-    "Gitlab-CI-CD",
-    "SSH"
+    "SSH/SSH-Key Generation.md"
   ]
 }

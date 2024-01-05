@@ -8,7 +8,7 @@ We will use helm chart to install Prometheus service. use the following command 
 ```bash
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 
-helm install prometheus prometheus-community/prometheus -n monitoring --create-namespace
+helm upgrade --install prometheus prometheus-community/prometheus -n monitoring --create-namespace
 ```
 Now get the status of the pods by running the following command
 ```bash

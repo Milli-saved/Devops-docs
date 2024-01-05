@@ -9,7 +9,7 @@ To install Grafana on our cluster we will use helm chart. please refer [this](ht
 ```bash
 helm repo add grafana https://grafana.github.io/helm-charts --namepsace monitoring --create-namespace
 
-helm install grafana grafana/grafana -n monitoring --set ingress.enabled=true --set ingress.hosts=["grafana.gebeyalearning.com"] --set ingress.ingressClassName=nginx
+helm upgrade --install grafana grafana/grafana -n monitoring --set ingress.enabled=true --set ingress.hosts=["grafana.gebeyalearning.com"] --set ingress.ingressClassName=nginx
 ```
 
 Check all the services by using the following command.
