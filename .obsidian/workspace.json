@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Demo/Complete-CI-CD-pipeline-Demo.md",
+                "file": "Activities/Activity-1.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Demo/Complete-CI-CD-pipeline-Demo.md",
+                "file": "Activities/Activity-1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Demo/Complete-CI-CD-pipeline-Demo.md",
+                "file": "Activities/Activity-1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Demo/Complete-CI-CD-pipeline-Demo.md"
+                "file": "Activities/Activity-1.md"
               }
             }
           }
@@ -161,8 +161,10 @@
   },
   "active": "b9ef9171fd90f3ea",
   "lastOpenFiles": [
-    "Demo/Monitoring/Prometheus.md",
     "Demo/Complete-CI-CD-pipeline-Demo.md",
+    "Activities/Activity-1.md",
+    "Activities",
+    "Demo/Monitoring/Prometheus.md",
     "test.yaml",
     "Demo/Monitoring/Grafana.md",
     "Demo/ArgoCD/Install-ArgoCD.md",
@@ -175,7 +177,6 @@
     "Demo/Kubernetes/k8s-exam-solution/frontend/fe-service.yaml",
     "Demo/Kubernetes/k8s-exam-solution/frontend/fe-ingress.yaml",
     "Demo/Kubernetes/k8s-exam-solution/frontend/fe-deployment.yaml",
-    "Demo/Kubernetes/k8s-exam-solution/backend/be-service.yaml",
     "Demo/Kubernetes/Using Cloud AKS Cluster.md",
     "Demo/Kubernetes/Using Secrets.md",
     "kubectl.md",
@@ -200,7 +201,6 @@
     "Docker & docker-compose/Basic Docker commands.md",
     "Gitlab-CI-CD/Gitlab CI configuration.md",
     "SSH/Adding SSH public key to the remote server.md",
-    "SSH/SSH to server.md",
-    "SSH/SSH-Key Generation.md"
+    "SSH/SSH to server.md"
   ]
 }
