@@ -2,6 +2,26 @@
 Project repository: https://git.gebeya.training/todo-microservice
 ## Objective
 Implement a complete CI/CD pipeline to build and deploy the microservices on the above project link
+## Architecture
+```mermaid
+graph TD
+  subgraph Frontend
+    frontend -->|Rest API| api-service
+  end
+
+  subgraph Backend Service
+    api-service -->|grpc| auth-service
+    api-service -->|grpc| todo-service
+  end
+
+  subgraph Auth Service
+    auth-service -->|Database| PostgresDB
+  end
+
+  subgraph Todo Service
+    todo-service -->|Database| MongoDB
+  end
+```
 ## Tasks
 1. Fork the above repo
 2. Configure CI/CD pipeline to do docker build push and update your deployment manifests with the correct image tag
