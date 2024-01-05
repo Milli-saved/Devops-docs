@@ -41,7 +41,7 @@ update-manifest:
         - cd argocd-first-test
         - git remote set-url origin --push $MANIFEST_GIT_REPO
         - |
-            sed -i "s/image:.*/image: $DOCKER_IMAGE/g" ./backend/be-deployment.yaml
+            sed -i "s#image:.*#image: ${DOCKER_IMAGE}#g" ./backend/be-deployment.yaml
         - git stage ./backend/be-deployment.yaml
         - git commit -m "Update the backend image tag [skip-ci]"
         - git push origin HEAD:$CI_COMMIT_REF_NAME
@@ -79,7 +79,7 @@ update-manifest:
         - cd argocd-first-test
         - git remote set-url origin --push $MANIFEST_GIT_REPO
         - |
-            sed -i "s/image:.*/image: $DOCKER_IMAGE/g" ./frontend/fe-deployment.yaml
+            sed -i "s#image:.*#image: ${DOCKER_IMAGE}#g" ./frontend/fe-deployment.yaml
         - git stage ./frontend/be-deployment.yaml
         - git commit -m "Update the backend image tag [skip-ci]"
         - git push origin HEAD:$CI_COMMIT_REF_NAME
